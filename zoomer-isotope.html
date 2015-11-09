@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="zoomer.css" media="screen">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<title>Zoomer with isotope</title>
+
+</head>
+
+<body cz-shortcut-listen="true">
+	<div id="page">
+
+		<div id="content">
+
+		<div class="button-group filters-button-group">
+		  <button class="btn btn-primary btn-lg button is-checked" data-filter="*">show all</button>
+		  <button class="btn btn-primary btn-lg button" data-filter=".metal">metal</button>
+		  <button class="btn btn-primary btn-lg button" data-filter=".transition">transition</button>
+		  <button class="btn btn-primary btn-lg button" data-filter=":not(.transition)">not transition</button>
+		  <button class="btn btn-primary btn-lg button" data-filter=".metal:not(.transition)">metal but not transition</button>
+		</div>
+		
+		<div class="container">
+			<ul class="thumb grid">
+				<li class="pic metal" ><a href="#"><img src="robots.jpg" alt="Robots like cameras" class="" ></a></li>
+
+				<li class="pic"><a href="#"><img src="monster.jpg" alt="Monsters Inc"></a></li>
+				<li class="pic"><a href="#"><img src="santa.jpg" alt="Monsters Inc"></a></li>
+				<li class="pic metal"><a href="#"><img src="thumb6.jpg" alt="Sponguebob!"></a></li>
+				<li class="pic"><a href="#"><img src="thumb7.jpg" alt="Star Wars"></a></li>
+				<li class="pic"><a href="#"><img src="hulk.jpg" alt="Hulk Smash!"></a></li>
+				<li class="pic"><a href="#"><img src="dino.png" alt="Dinosaur time"></a></li>
+				<li class="pic"><a href="#"><img src="orange.jpg" alt="Orange car"></a></li>
+				<li class="pic"><a href="#"><img src="alien.jpg" alt="Aliens!" class="" ></a></li>
+				<li class="pic"><a href="#"><img src="supe.jpg" alt="It's Superman!" class="" ></a></li>
+                <li class="pic"><a href="#"><img src="garfield.jpg" alt="Where's my lasagne?" class="" ></a></li>
+				<li class="pic"><a href="#"><img src="bridge.jpg" alt="The bridge at Sunset" class="" ></a></li>
+				<li class="pic"><a href="#"><img src="peanuts.jpg" alt="Peanuts!"></a></li>
+				<li class="pic"><a href="#"><img src="thumb5.jpg" alt="1956 Yellow Car" class="" ></a></li>
+				<li class="pic"><a href="#"><img src="thumb4.jpg" alt="Ooooh. Pretty" class="" ></a></li>
+				<li class="pic"><a href="#"><img src="thumb3.jpg" alt="Lets build something" class="" ></a></li>
+				<li class="pic"><a href="#"><img src="thumb2.jpg" alt="Puppy love"></a></li>
+				<li class="pic"><a href="#"><img src="thumb1.jpg" alt="It's a Toy Story"></a></li>
+			</ul>
+		</div>
+		<div id="zoom-img">	
+			<img id="zoom_02" src="ferrari-458-spider.jpg" data-zoom-image="ferrari-458-spider.jpg"/>
+		</div>		
+	</div>
+</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="zoomer.js"></script> 
+	<script type="text/javascript" src="jquery.elevatezoom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="zoomer-isotope.js"></script>
+
+</body>
+</html>
